@@ -5658,6 +5658,11 @@ escodegen@~1.9.0:
   optionalDependencies:
     source-map "~0.6.1"
 
+eslint-config-import@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-import/-/eslint-config-import-0.13.0.tgz#082f3055e7ff651010526d35ac9a28ace438a544"
+  integrity sha1-CC8wVef/ZRAQUm01rJoorOQ4pUQ=
+
 eslint-config-prettier@^6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-6.4.0.tgz#0a04f147e31d33c6c161b2dd0971418ac52d0477"
@@ -5688,6 +5693,17 @@ eslint-import-resolver-typescript@^1.1.1:
     debug "^4.0.1"
     resolve "^1.4.0"
     tsconfig-paths "^3.6.0"
+
+eslint-import-resolver-typescript@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.0.0.tgz#e95f126cc12d3018b9cc11692b4dbfd3e17d3ea6"
+  integrity sha512-bT5Frpl8UWoHBtY25vKUOMoVIMlJQOMefHLyQ4Tz3MQpIZ2N6yYKEEIHMo38bszBNUuMBW6M3+5JNYxeiGFH4w==
+  dependencies:
+    debug "^4.1.1"
+    is-glob "^4.0.1"
+    resolve "^1.12.0"
+    tiny-glob "^0.2.6"
+    tsconfig-paths "^3.9.0"
 
 eslint-loader@^2.2.1:
   version "2.2.1"
@@ -7510,6 +7526,11 @@ globals@^11.1.0, globals@^11.7.0:
   resolved "https://registry.yarnpkg.com/globals/-/globals-11.12.0.tgz#ab8795338868a0babd8525758018c2a7eb95c42e"
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
+globalyzer@^0.1.0:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/globalyzer/-/globalyzer-0.1.4.tgz#bc8e273afe1ac7c24eea8def5b802340c5cc534f"
+  integrity sha512-LeguVWaxgHN0MNbWC6YljNMzHkrCny9fzjmEUdnF1kQ7wATFD1RHFRqA1qxaX2tgxGENlcxjOflopBwj3YZiXA==
+
 globby@^10.0.1:
   version "10.0.1"
   resolved "https://registry.yarnpkg.com/globby/-/globby-10.0.1.tgz#4782c34cb75dd683351335c5829cc3420e606b22"
@@ -7566,6 +7587,11 @@ globjoin@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/globjoin/-/globjoin-0.1.4.tgz#2f4494ac8919e3767c5cbb691e9f463324285d43"
   integrity sha1-L0SUrIkZ43Z8XLtpHp9GMyQoXUM=
+
+globrex@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
+  integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
 
 globule@^1.0.0:
   version "1.2.1"
@@ -15858,6 +15884,14 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-glob@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/tiny-glob/-/tiny-glob-0.2.6.tgz#9e056e169d9788fe8a734dfa1ff02e9b92ed7eda"
+  integrity sha512-A7ewMqPu1B5PWwC3m7KVgAu96Ch5LA0w4SnEN/LbDREj/gAD0nPWboRbn8YoP9ISZXqeNAlMvKSKoEuhcfK3Pw==
+  dependencies:
+    globalyzer "^0.1.0"
+    globrex "^0.1.1"
+
 tiny-inflate@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/tiny-inflate/-/tiny-inflate-1.0.2.tgz#93d9decffc8805bd57eae4310f0b745e9b6fb3a7"
@@ -16089,7 +16123,7 @@ ts-pnp@^1.1.2:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.1.4.tgz#ae27126960ebaefb874c6d7fa4729729ab200d90"
   integrity sha512-1J/vefLC+BWSo+qe8OnJQfWTYRS6ingxjwqmHMqaMxXMj7kFtKLgAaYW3JeX3mktjgUL+etlU8/B4VUAUI9QGw==
 
-tsconfig-paths@^3.6.0:
+tsconfig-paths@^3.6.0, tsconfig-paths@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.9.0.tgz#098547a6c4448807e8fcb8eae081064ee9a3c90b"
   integrity sha512-dRcuzokWhajtZWkQsDVKbWyY+jgcLC5sqJhg2PSgf4ZkH2aHPvaOY8YWGhmjb68b5qqTfasSsDO9k7RUiEmZAw==

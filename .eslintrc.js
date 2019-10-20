@@ -1,5 +1,4 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
   extends: [
     "@strv/react",
     "@strv/react/optional",
@@ -14,8 +13,11 @@ module.exports = {
     es6: true,
     node: true
   },
+  parser: "@typescript-eslint/parser",
+  plugins: ["import", "prettier"],
   rules: {
-    "prettier/prettier": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/prefer-interface": "off",
     "import/order": [
       "error",
       {
@@ -26,7 +28,16 @@ module.exports = {
         ],
         "newlines-between": "always"
       }
-    ]
+    ],
+    "prettier/prettier": "error",
+    "react/prop-types": 0
   },
-  plugins: ["prettier"]
+  settings: {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      typescript: {}
+    }
+  }
 };
