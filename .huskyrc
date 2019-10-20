@@ -1,0 +1,10 @@
+{
+  "hooks": {
+      "pre-commit": [
+        "lint-staged"
+      ],
+      "pre-push": [
+        "yarn type-check"
+      ]
+    }
+}
