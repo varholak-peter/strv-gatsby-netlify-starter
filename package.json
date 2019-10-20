@@ -45,8 +45,10 @@
     "cypress": "cypress open",
     "dev": "npm run clean && gatsby develop",
     "format": "prettier --write",
-    "lint": "eslint",
-    "start": "npm run dev",
+    "lint": "eslint ./src ./cypress --ext .ts,.tsx,.js",
+    "lint:css": "stylelint './src/**/*.{ts,tsx}'",
+    "serve": "gatsby serve",
+    "serve:test": "gatsby serve -p 8000 & wait-on http://localhost:8000",
     "test": "npm run test:unit && npm run test:cypress",
     "test:cypress": "cypress run",
     "test:unit": "jest",
@@ -79,6 +81,7 @@
     "stylelint": "^11.1.1",
     "stylelint-config-prettier": "^6.0.0",
     "ts-jest": "^24.1.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.6.4",
+    "wait-on": "^3.3.0"
   }
 }

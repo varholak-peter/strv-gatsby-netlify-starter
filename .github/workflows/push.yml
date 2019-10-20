@@ -1,0 +1,41 @@
+name: Push Hook
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: yarn
+      - name: Lint JS
+        run: yarn lint
+      - name: Lint CSS
+        run: yarn lint:css
+      - name: Check Types
+        run: yarn type-check
+  test:
+    needs: lint
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install dependencies
+        run: yarn
+      - name: Run Jest
+        run: yarn test:unit
+      - name: Build
+        run: yarn build
+      - name: Start test server
+        run: yarn start:test
+      - name: Run Cypress
+        run: yarn test:cypress
