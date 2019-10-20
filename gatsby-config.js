@@ -1,10 +1,6 @@
-const path = require('path')
-
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
-    description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.'
+    title: 'STRV Gatsby & Netlify Starter'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -12,9 +8,21 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-root-import',
       options: {
-        '~': path.join(__dirname, 'src')
+        '~': `${__dirname}/src`
       }
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'STRV - GatsbyJS Starter',
+        short_name: 'STRV - GatsbyJS',
+        start_url: '/',
+        background_color: '#111517',
+        theme_color: '#EF0D33',
+        display: 'standalone'
+      }
+    },
+    'gatsby-plugin-offline',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -71,6 +79,24 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.ts`
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-page-creator',
+      options: {
+        path: `${__dirname}/src/pages`,
+        ignore: {
+          patterns: [`**/*.md`]
+        }
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-page-creator',
+      options: {
+        path: `${__dirname}/src/templates`,
+        ignore: {
+          patterns: [`**/*__generated__**/*`]
+        }
       }
     },
     'gatsby-plugin-netlify' // make sure to keep it last in the array

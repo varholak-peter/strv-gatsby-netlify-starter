@@ -1,7 +1,11 @@
-import React from "react";
-import { IndexPageTemplate } from "~/templates/index-page";
+import React, { FC } from "react";
+import { IndexPageTemplate } from "~/templates/index";
 
-const IndexPagePreview = ({ entry }) => {
+type Props = {
+  entry: any;
+};
+
+const IndexPagePreview: FC<Props> = ({ entry }) => {
   const data = entry.getIn(["data"]).toJS();
 
   if (data) {
