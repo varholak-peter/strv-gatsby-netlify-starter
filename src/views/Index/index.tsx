@@ -10,7 +10,7 @@ type Props = {
 };
 
 export const IndexPageView: FC<Props> = ({ description, title }) => (
-  <Layout>
+  <Layout title={title}>
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
   </Layout>
