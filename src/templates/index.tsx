@@ -1,19 +1,8 @@
-import React, { FC } from "react";
 import { graphql } from "gatsby";
 
+import React, { FC } from "react";
 import { IndexPageTemplateData } from "@GTypes/IndexPageTemplateData";
-
-type Props = {
-  description: string;
-  title: string;
-};
-
-export const IndexPageTemplate: FC<Props> = ({ description, title }) => (
-  <>
-    <h1>{title}</h1>
-    <p>{description}</p>
-  </>
-);
+import { IndexPageView } from "~/views/Index";
 
 type Data = {
   data: IndexPageTemplateData;
@@ -23,7 +12,7 @@ const IndexPage: FC<Data> = ({ data = {} }) => {
   const { frontmatter } = data.markdownRemark || {};
 
   return (
-    <IndexPageTemplate
+    <IndexPageView
       description={(frontmatter && frontmatter.description) || "Description"}
       title={(frontmatter && frontmatter.title) || "Title"}
     />

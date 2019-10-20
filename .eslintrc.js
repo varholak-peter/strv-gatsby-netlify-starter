@@ -11,25 +11,27 @@ module.exports = {
   ],
   env: {
     es6: true,
+    jest: true,
     node: true
   },
   parser: "@typescript-eslint/parser",
   plugins: ["import", "prettier"],
   rules: {
+    "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/prefer-interface": "off",
+    "import/default": "off",
     "import/order": [
       "error",
       {
         groups: [
           ["builtin", "external"],
-          "internal",
-          ["parent", "sibling", "index", "unknown"]
+          ["internal", "unknown"],
+          ["parent", "sibling", "index"]
         ],
-        "newlines-between": "always"
+        "newlines-between": "always-and-inside-groups"
       }
     ],
-    "prettier/prettier": "error",
     "react/prop-types": 0
   },
   settings: {
