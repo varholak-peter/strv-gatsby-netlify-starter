@@ -5,6 +5,7 @@ module.exports = {
     // '@strv/typescript',
     // '@strv/typescript/optional',
     "plugin:@typescript-eslint/recommended",
+    "plugin:cypress/recommended",
     "prettier",
     "prettier/react",
     "prettier/@typescript-eslint"
