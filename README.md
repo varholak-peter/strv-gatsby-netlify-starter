@@ -1,6 +1,7 @@
 # STRV Gatsby & Netlify Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a1ec4b24-d104-4b90-b67f-3c1e18890ad0/deploy-status)](https://app.netlify.com/sites/strv-gatsby-netlify-starter/deploys)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=varholak-peter/strv-gatsby-netlify-starter)](https://dependabot.com)
 
 **Note:** This starter uses [Gatsby v2](https://www.gatsbyjs.org/blog/2018-09-17-gatsby-v2/).
 
