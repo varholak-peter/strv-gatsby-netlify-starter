@@ -7856,9 +7856,9 @@ gatsby-remark-copy-linked-files@^2.0.7:
     unist-util-visit "^1.4.1"
 
 gatsby-remark-images@^3.1.6:
-  version "3.1.30"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.30.tgz#c71527d56ab941878d0b576f61192d17fdca881d"
-  integrity sha512-iednni/e2p55EaTz5HHEC7xd5u/1vpeYWuQkEa1uZglNdje8x+JS3/cXUFYE3/M9T/w+HXqk9WGtdPMUuoC9oA==
+  version "3.1.31"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.31.tgz#8c2fe37f8d0fd1a5612de085c7d96dfae22c6cb8"
+  integrity sha512-HWCRgGejHUnQM+fClkDO28NLDplS6ag1vA5jz4HKIWJD4cs33h+Oa9W12k2kul5gJ0y5/j9xEAYDT2zdbTSS3A==
   dependencies:
     "@babel/runtime" "^7.7.2"
     chalk "^2.4.2"
@@ -15946,14 +15946,6 @@ scheduler@^0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.15.0.tgz#6bfcf80ff850b280fed4aeecc6513bc0b4f17f8e"
   integrity sha512-xAefmSfN6jqAa7Kuq7LIJY0bwAPG3xlCj0HMEBQk1lxYiDKZscY2xJ5U/61ZTrYbmNQbXa+gc7czPkVo11tnCg==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-
-scheduler@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.17.0.tgz#7c9c673e4ec781fac853927916d1c426b6f3ddfe"
-  integrity sha512-7rro8Io3tnCPuY4la/NuI5F2yfESpnfZyT6TtkXnSWVkcu0BCDJ+8gk5ozUaFaxpIyNuWAPXrH0yFcSi28fnDA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
