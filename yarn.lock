@@ -7957,9 +7957,9 @@ gatsby-transformer-remark@^2.6.9:
     unist-util-visit "^1.4.1"
 
 gatsby-transformer-sharp@^2.1.9:
-  version "2.3.4"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.4.tgz#7ab04112983212a3e3a41342495b4900a3980ddb"
-  integrity sha512-TTCCB4vjvrl20Au4yRN9bJqdLqnc8d0Fb+Gsobmf7yhVNJC+eodBdp2ji6mO0JJTwN/JvZk3SJBE2Aa1i8Ezrg==
+  version "2.3.5"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-sharp/-/gatsby-transformer-sharp-2.3.5.tgz#014f46ec464cf5c6ff57a948bf43ea7a9c3452e2"
+  integrity sha512-fBPGK/TeBl26+E8owi83APrCWvwfM2dXTyZm/aM1mb/PjXNPg9lsO9cKPZy7hj5s3VLaLsRxVwKk5BaWA05/ew==
   dependencies:
     "@babel/runtime" "^7.7.2"
     bluebird "^3.7.1"
@@ -15946,14 +15946,6 @@ scheduler@^0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.15.0.tgz#6bfcf80ff850b280fed4aeecc6513bc0b4f17f8e"
   integrity sha512-xAefmSfN6jqAa7Kuq7LIJY0bwAPG3xlCj0HMEBQk1lxYiDKZscY2xJ5U/61ZTrYbmNQbXa+gc7czPkVo11tnCg==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-
-scheduler@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.17.0.tgz#7c9c673e4ec781fac853927916d1c426b6f3ddfe"
-  integrity sha512-7rro8Io3tnCPuY4la/NuI5F2yfESpnfZyT6TtkXnSWVkcu0BCDJ+8gk5ozUaFaxpIyNuWAPXrH0yFcSi28fnDA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
