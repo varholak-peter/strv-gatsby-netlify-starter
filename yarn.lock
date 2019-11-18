@@ -7637,10 +7637,10 @@ fuzzy@^0.1.1:
   resolved "https://registry.yarnpkg.com/fuzzy/-/fuzzy-0.1.3.tgz#4c76ec2ff0ac1a36a9dccf9a00df8623078d4ed8"
   integrity sha1-THbsL/CsGjap3M+aAN+GIweNTtg=
 
-gatsby-cli@^2.8.11:
-  version "2.8.11"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.8.11.tgz#fafe232904183797a829fd94c8f8b54f590cc6c6"
-  integrity sha512-pqgfpdwi8tHqCMJ/DtrBtrc2h48c7AWkLKVklFYX19cKDMyFob3nVasv20l3TqQYDsTlrVz8yBveV06mG4MQCQ==
+gatsby-cli@^2.8.12:
+  version "2.8.12"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.8.12.tgz#e1d870a15258003b3ee6db68a24d5b6bc9d4368d"
+  integrity sha512-PlnkwmUugKSTPiLkGsgDWjevXNVItkRnnouJ++S60DKg3e7TB56Zth+L9XY/4S4IXkjIYnrxgTD98rEPA9M4Lg==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/runtime" "^7.7.2"
@@ -7657,8 +7657,8 @@ gatsby-cli@^2.8.11:
     execa "^3.3.0"
     fs-exists-cached "^1.0.0"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.0.19"
-    gatsby-telemetry "^1.1.37"
+    gatsby-core-utils "^1.0.20"
+    gatsby-telemetry "^1.1.38"
     hosted-git-info "^3.0.2"
     is-valid-path "^0.1.1"
     lodash "^4.17.15"
@@ -7685,7 +7685,7 @@ gatsby-cli@^2.8.11:
     ink "^2.5.0"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.0.19, gatsby-core-utils@^1.0.20:
+gatsby-core-utils@^1.0.20:
   version "1.0.20"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.20.tgz#f4788c2591fa7165c87f0ee5e8edf664c91978ea"
   integrity sha512-vdOy/+8UjY3taUEf85s/P8a5qfw4OUTRfvrmwJ8OOBfWkpcJRLEgW2EYfkYfGp3u9l8KKQv4VsdG3XRVQb36KQ==
@@ -7778,7 +7778,7 @@ gatsby-plugin-offline@^3.0.16:
     lodash "^4.17.15"
     workbox-build "^4.3.1"
 
-gatsby-plugin-page-creator@^2.1.27, gatsby-plugin-page-creator@^2.1.30:
+gatsby-plugin-page-creator@^2.1.27, gatsby-plugin-page-creator@^2.1.31:
   version "2.1.31"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-2.1.31.tgz#21554d125d5bd333b5307ea12ece7da297a8eb89"
   integrity sha512-eDrEGGVOZ042QLiCM7qmh6AyC7ODuLhVE55U9pNWmf8Vkb6Am6g2cFk+sDez3/G/4OTO7L1p8+HnYgtlTWwcGA==
@@ -7921,10 +7921,10 @@ gatsby-source-filesystem@^2.0.26:
     valid-url "^1.0.9"
     xstate "^4.6.7"
 
-gatsby-telemetry@^1.1.37:
-  version "1.1.37"
-  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.1.37.tgz#bf640de90ae07c85587e70745472f0777998c468"
-  integrity sha512-krI6P4xDCI/xMV1UT+EXZ6k+8jQiBZLWuEqt3JnrocIc8Qfa7MU7YFXn012uuZzIXejw6xQo97WE7Y1gs7bZXA==
+gatsby-telemetry@^1.1.38:
+  version "1.1.38"
+  resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.1.38.tgz#e8ac949565b87e37699ccbd067f55cc2fe62793e"
+  integrity sha512-uT9o5RgX2Vc4OccGCCzQeav3BstEc1Ggko5/zeov5DJxCh7eW45T9Fqd6sbZDdC78uKEPqnNeNDixcflQDWQfg==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/runtime" "^7.7.2"
@@ -7933,7 +7933,7 @@ gatsby-telemetry@^1.1.37:
     configstore "^5.0.0"
     envinfo "^7.4.0"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.0.19"
+    gatsby-core-utils "^1.0.20"
     git-up "4.0.1"
     is-docker "2.0.0"
     lodash "^4.17.15"
@@ -7985,9 +7985,9 @@ gatsby-transformer-sharp@^2.1.9:
     sharp "^0.23.2"
 
 gatsby@^2.13.31:
-  version "2.17.16"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.17.16.tgz#6b42b6f11f4a7fe3e58c110fbede4e18214d57eb"
-  integrity sha512-SOi7JuFlOuIS2CC0Bj3Y2zWxhr+NbcBROXNbpCTvhR8mFPOUZxOus/AnhK8Sw538AQlY0zCCUQ2QsisJikbVuw==
+  version "2.17.17"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.17.17.tgz#f0999ce134d9abc8f29fc783abe90f69d3b08269"
+  integrity sha512-YaKjOs9RMircBU54IkULcsVOj9z4mg2Yjcd/ixtLiKveRpgIDZj/BllkyH1PNYgii7r8LZ3PAX2CLtFmiNHUXw==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.7.2"
@@ -8049,13 +8049,13 @@ gatsby@^2.13.31:
     flat "^4.1.0"
     fs-exists-cached "1.0.0"
     fs-extra "^8.1.0"
-    gatsby-cli "^2.8.11"
-    gatsby-core-utils "^1.0.19"
+    gatsby-cli "^2.8.12"
+    gatsby-core-utils "^1.0.20"
     gatsby-graphiql-explorer "^0.2.28"
     gatsby-link "^2.2.24"
-    gatsby-plugin-page-creator "^2.1.30"
+    gatsby-plugin-page-creator "^2.1.31"
     gatsby-react-router-scroll "^2.1.16"
-    gatsby-telemetry "^1.1.37"
+    gatsby-telemetry "^1.1.38"
     glob "^7.1.6"
     got "8.3.2"
     graphql "^14.5.8"
@@ -8100,7 +8100,7 @@ gatsby@^2.13.31:
     shallow-compare "^1.2.2"
     sift "^5.1.0"
     signal-exit "^3.0.2"
-    slash "^3.0.0"
+    slugify "^1.3.6"
     socket.io "^2.3.0"
     stack-trace "^0.0.10"
     string-similarity "^1.2.2"
@@ -16423,6 +16423,11 @@ slice-ansi@^2.1.0:
     ansi-styles "^3.2.0"
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
+
+slugify@^1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.3.6.tgz#ba5fd6159b570fe4811d02ea9b1f4906677638c3"
+  integrity sha512-wA9XS475ZmGNlEnYYLPReSfuz/c3VQsEMoU43mi6OnKMCdbnFXd4/Yg7J0lBv8jkPolacMpOrWEaoYxuE1+hoQ==
 
 snake-case@^2.1.0:
   version "2.1.0"
