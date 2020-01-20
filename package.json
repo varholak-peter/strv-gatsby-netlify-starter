@@ -76,7 +76,7 @@
     "gatsby-plugin-typescript": "^2.1.15",
     "husky": "^3.0.9",
     "jest": "^24.9.0",
-    "lint-staged": "^9.4.2",
+    "lint-staged": "^10.0.1",
     "prettier": "^1.15.3",
     "react-test-renderer": "^16.10.2",
     "stylelint": "^11.1.1",
