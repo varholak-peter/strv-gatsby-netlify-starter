@@ -8340,9 +8340,9 @@ gatsby-transformer-sharp@^2.1.9:
     sharp "^0.23.4"
 
 gatsby@^2.13.31:
-  version "2.19.1"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.19.1.tgz#eaea19aec7580a459a7d2b9acea6e1445902ec36"
-  integrity sha512-n4GCNLIdG+0Kf6qNlIN4cfRp+PMAtN45RMvKoRFHQ5hDKnBZf53+wKe0CH2WhYtYayxit32Cn4usDqe5iASWag==
+  version "2.19.4"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.19.4.tgz#a44a1d5f19df2a8343ce690e6f3acaad75bff80c"
+  integrity sha512-ZYH5UFnjfURtGa/6InaMfe1uXeFtjhJp5WG1SZ1xHCdxYpQ5Ebv6ZNocqnt6HLAZpME8lDe6jxerhgLy6pWbCA==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.7.5"
