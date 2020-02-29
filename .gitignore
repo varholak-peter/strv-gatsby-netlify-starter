@@ -12,5 +12,5 @@ yarn-error.log
 
 # Types
 
-__generated__
+src/@generatedTypes
 schema.json

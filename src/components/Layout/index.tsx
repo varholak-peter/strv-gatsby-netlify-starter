@@ -1,16 +1,19 @@
-import React, { FC } from "react";
-import { Helmet } from "react-helmet";
-
-import { GlobalStyle } from "~/styles/global";
+import React, { FC } from 'react'
+import { Helmet } from 'react-helmet'
 
 type Props = {
-  title: string;
-};
+  title: string
+}
 
 export const Layout: FC<Props> = ({ children, title }) => (
   <>
-    <Helmet title={title} defer={false} />
-    <GlobalStyle />
+    <Helmet
+      defer={false}
+      htmlAttributes={{
+        lang: 'en',
+      }}
+      title={title}
+    />
     {children}
   </>
-);
+)
