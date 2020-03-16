@@ -79,7 +79,7 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.1",
     "gatsby-plugin-root-import": "^2.0.5",
-    "gatsby-plugin-typescript": "^2.1.27",
+    "gatsby-plugin-typescript": "^2.2.3",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
     "lint-staged": "^10.0.8",
