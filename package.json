@@ -34,7 +34,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
-    "gatsby": "^2.19.23",
+    "gatsby": "^2.23.21",
     "gatsby-image": "^2.2.41",
     "gatsby-plugin-emotion": "^4.1.22",
     "gatsby-plugin-manifest": "^2.2.42",
