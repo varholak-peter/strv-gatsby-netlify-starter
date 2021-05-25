@@ -69,7 +69,7 @@
     "@types/react-helmet": "^5.0.12",
     "@types/react-test-renderer": "^16.9.2",
     "@typescript-eslint/parser": "^2.21.0",
-    "apollo": "^2.24.0",
+    "apollo": "^2.33.3",
     "cypress": "^4.1.0",
     "eslint": "^6.5.1",
     "eslint-config-import": "^0.13.0",
